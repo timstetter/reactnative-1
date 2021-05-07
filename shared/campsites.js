@@ -22,7 +22,7 @@ export const CAMPSITES = [
     name: "Breadcrumb Trail Campground",
     image: "/assets/images/breadcrumb-trail.jpg",
     elevation: 2901,
-    featured: false,
+    featured: true,
     description:
       "Let NuCamp be your guide to this off-the-beaten-path, hike-in-only campground.",
   },
@@ -31,7 +31,7 @@ export const CAMPSITES = [
     name: "Redux Woods Campground",
     image: "/assets/images/redux-woods.jpg",
     elevation: 42,
-    featured: true,
+    featured: false,
     description:
       "You'll never want to leave this hidden gem, deep within the lush Redux Woods.",
   },
