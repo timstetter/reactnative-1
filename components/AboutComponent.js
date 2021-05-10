@@ -48,8 +48,8 @@ class About extends Component {
         <Card title={"Community Partners"}>
           <FlatList
             data={this.state.partners}
-            keyExtractor={(item) => item.id.toString()}
             renderItem={renderPartner}
+            keyExtractor={(item) => item.id.toString()}
           />
         </Card>
       </ScrollView>
